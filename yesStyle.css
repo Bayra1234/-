@@ -40,11 +40,11 @@
     border: 2px solid #00000024;
   }
   .envelope__letter {
-    left: 29px;
+    left: 18px;
     z-index: 3;
-    width: 158px;
+    width: 183px;
     bottom: 17px;
-    height: 100px;
+    height: 150px;
     cursor: pointer;
     font-size: 13px;
     font-style: oblique;
@@ -65,9 +65,9 @@
 
   .envelope__letter:before {
     content: "";
-    height: 0;
+    height: "";
     width: 6px;
-    right: -34px;
+    right: -21px;
     bottom: -17px;
     position: absolute;
     border-top: 56px solid transparent;
